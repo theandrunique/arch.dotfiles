@@ -7,8 +7,8 @@ shell = "/usr/bin/zsh"
 TERM="xterm-256color"
 
 [window]
-padding.x = 10
-padding.y = 10
+padding.x = 0
+padding.y = 0
 
 opacity = 0.8
 blur = true
@@ -19,7 +19,7 @@ option_as_alt = "Both"
 normal.family = "Droid SansM Nerd Font Mono"
 normal.style = "Regular"
 
-size = 16
+size = 12
 
 [scrolling]
 history = 10000
