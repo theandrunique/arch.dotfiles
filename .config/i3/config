@@ -1,6 +1,11 @@
 # set mod button as win
 set $mod Mod4
 
+
+#setup clipboard
+exec_always systemctl &
+bindsym $mod+v exec "export CM_LAUNCHER=fzf ; clipmenu"
+
 exec --no-startup-id picom
 exec_always autotiling -w 1 3 5 7 9
 
