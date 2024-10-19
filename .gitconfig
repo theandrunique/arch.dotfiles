@@ -1,3 +1,5 @@
 [user]
 	email = theandrunique@gmail.com
 	name = theandrunique
+[core]
+	editor = nvim
