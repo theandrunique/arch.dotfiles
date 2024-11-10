@@ -1,6 +1,13 @@
 # set mod button as win
 set $mod Mod4
 
+
+# set keyboard repeating timing
+exec_always xset r rate 250 30
+
+# set Caps Lock as a second esc button
+exec_always setxkbmap -option caps:escape
+
 # setup screenshot key
 bindsym Print exec flameshot gui
 

@@ -3,3 +3,9 @@
 	name = theandrunique
 [core]
 	editor = nvim
+[init]
+	defaultBranch = master
+[alias]
+	l = log --oneline --all --graph
+[diff]
+	submodule = log
