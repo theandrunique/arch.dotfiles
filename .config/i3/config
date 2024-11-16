@@ -37,9 +37,9 @@ exec_always "xrandr --output HDMI-0 --mode 1920x1080 --rate 144"
 # setup mouse
 
 # when through usb receiver
-exec_always "xinput --set-prop 13 'libinput Accel Profile Enabled' 0, 1"
-exec_always "xinput --set-prop 13 'libinput Accel Speed' 0"
-exec_always "xinput --set-prop 13 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1"
+exec_always "xinput --set-prop 14 'libinput Accel Profile Enabled' 0, 1"
+exec_always "xinput --set-prop 14 'libinput Accel Speed' 0"
+exec_always "xinput --set-prop 14 'Coordinate Transformation Matrix' 1 0 0 0 1 0 0 0 1"
 
 # when charging
 exec_always "xinput --set-prop 22 'libinput Accel Profile Enabled' 0, 1"

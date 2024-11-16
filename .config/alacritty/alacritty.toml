@@ -1,7 +1,3 @@
-import = [
-    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
-]
-shell = "/usr/bin/zsh"
 
 [env]
 TERM="xterm-256color"
@@ -34,4 +30,12 @@ bindings = [
 { key = "V", mods = "Control", action = "Paste"},
 { key = "K", mods = "Control", chars = "\u0003"}
 ]
+
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
+
+[terminal]
+shell = "/usr/bin/zsh"
 

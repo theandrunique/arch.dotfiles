@@ -9,3 +9,7 @@
 	l = log --oneline --all --graph
 [diff]
 	submodule = log
+[status]
+	submodulesummary = 1
+[push]
+	recurseSubmodules = check
